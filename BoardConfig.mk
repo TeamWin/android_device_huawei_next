@@ -71,5 +71,7 @@ TW_BRIGHTNESS_PATH := "/sys/devices/platform/hisi_fb.1048577/leds/lcd_backlight0
 TW_CUSTOM_BATTERY_PATH := "/sys/devices/battery.6/power_supply/Battery"
 TW_MAX_BRIGHTNESS := 255
 BOARD_HAS_NO_SELECT_BUTTON := true
-TW_SCREEN_BLANK_ON_BOOT := true
 TW_EXCLUDE_SUPERSU := true
+TW_MAX_BRIGHTNESS := 9960
+TW_DEFAULT_BRIGHTNESS := 3984
+
